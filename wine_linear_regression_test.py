@@ -28,7 +28,7 @@ import logging
 # COMMAND ----------
 
 # Wine Quality Sample
-def train(alpha=0.2, l1_ratio=0.2):
+def train(alpha=0, l1_ratio=0):
 
     logging.basicConfig(level=logging.WARN)
     logger = logging.getLogger(__name__)
